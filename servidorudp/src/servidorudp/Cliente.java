@@ -1,4 +1,4 @@
-package servidorudp;
+
 
 import java.net.DatagramSocket;
 import java.net.SocketException;
@@ -13,7 +13,9 @@ public class Cliente {
 		 try{
 			 
 			 DatagramSocket soquete = new DatagramSocket();
-			 DatagramPacket dp = new DatagramPacket(mensagem, mensagem.length,InetAddress.getByName("10.25.1.153"), porta);
+			 DatagramPacket dp = new 
+DatagramPacket(mensagem, 
+mensagem.length,InetAddress.getByName("40.121.156.191"), porta);
 			 System.out.println(mensagem.length);
 			 soquete.send(dp);
 			 soquete.close();

@@ -1,4 +1,4 @@
-package serviodorudp;
+
 
 import java.net.DatagramSocket;
 import java.net.SocketException;
