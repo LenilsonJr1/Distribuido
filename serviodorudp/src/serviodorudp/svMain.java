@@ -18,6 +18,7 @@ public class svMain {
 					 DatagramSocket soquete = new DatagramSocket(porta);
 					
 					 byte buffer[] = new byte[85536];
+					 
 					 DatagramPacket datagrama = new DatagramPacket(buffer, buffer.length);
 					 System.out.println("Aguardando solicitacoes");
 					
