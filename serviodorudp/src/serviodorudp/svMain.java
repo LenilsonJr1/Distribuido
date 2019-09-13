@@ -15,7 +15,7 @@ public class svMain {
 
 			
 				 try{
-					 DatagramSocket soquete = new DatagramSocket(porta);
+					 DatagramSocket soquete = new DatagramSocket(porta,InetAddress.getByName("0.0.0.0"));
 					
 					 byte buffer[] = new byte[85536];
 					 

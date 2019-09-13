@@ -13,7 +13,7 @@ public class Cliente {
 		 try{
 			 
 			 DatagramSocket soquete = new DatagramSocket();
-			 DatagramPacket dp = new DatagramPacket(mensagem, mensagem.length,InetAddress.getByName("177.89.66.126"), porta);
+			 DatagramPacket dp = new DatagramPacket(mensagem, mensagem.length,InetAddress.getByName("40.121.156.191"), porta);
 			 System.out.println(mensagem.length);
 			 soquete.send(dp);
 			 soquete.close();
